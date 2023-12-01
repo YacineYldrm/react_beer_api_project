@@ -1,0 +1,52 @@
+.detail_page_wrapper
+{
+    width: 414px;
+    padding: 4%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    margin-inline: auto;
+    background-color: white;
+
+    .item_img
+    {
+        height: 418px;
+        object-fit: contain;
+    }
+
+    div
+    {
+        display: flex;
+        flex-direction: column;
+        h2
+        {
+            font-size: 48px;
+            margin-bottom: 8px;
+        }
+
+        h3
+        {
+            color: #FFCA41;
+            margin-bottom: 24px;
+        }
+
+        .brew_info_wrapper
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            color: rgb(168, 168, 168);
+            width: 100%;
+            font-size: 12px;
+            margin-bottom: 12px;
+        }
+
+        a
+        {
+            margin-top: 24px;
+            background-color: #FFCA41;
+            width: fit-content;
+            border-radius: 25px;
+            padding: 16px;
+        }
+    }
+}

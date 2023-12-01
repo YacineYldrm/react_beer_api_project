@@ -1,0 +1,19 @@
+nav
+{
+    height: 8vh;
+    background-color: #FFCA41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 414px;
+    margin-inline: auto;
+    
+    .home_button
+    {
+        background-color: white;
+        padding: 8px;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+}
