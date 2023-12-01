@@ -20,7 +20,6 @@ const ItemGallery = () => {
         <section className="gallery_wrapper">
 
             {megaData? (
-
             <>
                 {megaData?.map((item) => (
                     <div className="item_wrapper" key={item._id}>
