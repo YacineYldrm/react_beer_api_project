@@ -5,7 +5,7 @@ import './ItemGallery.scss';
 
 const ItemGallery = () => {
 
-    const [megaData, setMegaData] = useState(null)
+    const [megaData, setMegaData] = useState([])
         
     //fetch request
     useEffect(() => {

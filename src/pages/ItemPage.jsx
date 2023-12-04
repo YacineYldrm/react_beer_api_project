@@ -6,13 +6,15 @@ import './ItemPage.scss'
 const ItemPage = () => {
 
     // get passed data with useLocation() method
-    const image_url = useLocation().state.image_url
-    const name = useLocation().state.name
-    const tagline = useLocation().state.tagline
-    const first_brewed = useLocation().state.first_brewed
-    const attenuation_level = useLocation().state.attenuation_level
-    const description = useLocation().state.description
-    
+    const image_url = useLocation().state.image_url;
+    const name = useLocation().state.name;
+    const tagline = useLocation().state.tagline;
+    const first_brewed = useLocation().state.first_brewed;
+    const attenuation_level = useLocation().state.attenuation_level;
+    const description = useLocation().state.description;
+
+    console.log(useLocation());
+
     //render detail page
     return (
         <>
